@@ -51,5 +51,6 @@ export default createGlobalStyle`
     padding: 0;
 
     outline: none;
+    border: none;
   }
 `;

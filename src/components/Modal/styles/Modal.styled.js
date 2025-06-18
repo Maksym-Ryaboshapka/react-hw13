@@ -78,13 +78,26 @@ export const Input = styled.input`
   width: 300px;
   height: 25px;
   padding: 3px 5px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+
+  &:focus {
+    border: 1.5px solid #0b89e3ff;
+  }
 `;
 
 export const Textarea = styled.textarea`
   width: 300px;
   height: 150px;
   padding: 3px 5px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+
   resize: none;
+
+  &:focus {
+    border: 1.5px solid #0b89e3ff;
+  }
 `;
 
 export const Button = styled.button`
